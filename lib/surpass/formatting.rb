@@ -319,6 +319,8 @@ class Alignment
         @horz = HORZ_JUSTIFIED
       when 'top'
         @vert = VERT_TOP
+      when 'middle'
+        @vert = VERT_CENTER
       when 'bottom'
         @vert = VERT_BOTTOM
       when nil
